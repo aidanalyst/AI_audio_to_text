@@ -2,7 +2,6 @@ import streamlit as st
 import whisper
 import tempfile
 import os
-import imageio_ffmpeg
 from pathlib import Path
 import warnings
 warnings.filterwarnings("ignore", message="FP16 is not supported on CPU")
